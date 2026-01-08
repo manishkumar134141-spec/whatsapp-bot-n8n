@@ -11,7 +11,13 @@ A custom WhatsApp bot built using `whatsapp-web.js` that integrates with n8n wor
 - **Node.js** (Runtime)
 - **whatsapp-web.js** (Library)
 - **n8n** (Workflow Automation)
+- **Docker** (Containerization)
 - **Python** (Auxiliary Scripts)
+
+## 📋 Prerequisites
+Before running this project, ensure you have the following installed:
+- **[Docker Desktop](https://www.docker.com/products/docker-desktop/)** (Required to run the environment locally)
+- Node.js (v18 or higher recommended)
 
 ## 📦 Installation
 
@@ -29,18 +35,19 @@ npm install
 ```
 
 
-3. **Run the Bot**
+3. **Start Docker**
+Make sure your Docker Desktop is running in the background.
+4. **Run the Bot**
 ```bash
 node bot.js
 
 ```
 
 
-4. **Scan QR Code**
+5. **Scan QR Code**
 The terminal will generate a QR code. Scan it with your WhatsApp mobile app to log in.
 
 ## ⚠️ Notes
 
 * The `.wwebjs_auth` and `node_modules` folders are git-ignored to keep the repo clean and secure.
 * Ensure your n8n webhook URL is correctly configured in `bot.js`.
-
