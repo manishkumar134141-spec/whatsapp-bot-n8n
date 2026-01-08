@@ -1,18 +1,3 @@
-It looks perfect! You successfully pushed the code, and importantly, the heavy `node_modules` folder is missing (which is exactly what we wanted).
-
-See that big green button at the bottom that says **"Add a README"**? That's your next step. A README is like the "cover page" of your project—it tells people (and future you) what this code does.
-
-Here is a professional `README.md` I wrote for you based on your project.
-
-### **How to add it:**
-
-1. Click the green **"Add a README"** button on that GitHub page.
-2. Paste the text below into the editor.
-3. Click the green **"Commit changes"** button at the top right.
-
----
-
-```markdown
 # 🤖 WhatsApp Bot (n8n Integration)
 
 A custom WhatsApp bot built using `whatsapp-web.js` that integrates with n8n workflows. It automates responses by connecting your WhatsApp Client to an external automation server.
@@ -59,6 +44,3 @@ The terminal will generate a QR code. Scan it with your WhatsApp mobile app to l
 * The `.wwebjs_auth` and `node_modules` folders are git-ignored to keep the repo clean and secure.
 * Ensure your n8n webhook URL is correctly configured in `bot.js`.
 
-```
-
-```
